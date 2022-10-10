@@ -1,0 +1,56 @@
+# Verbosity and confirmation
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -iv'
+alias mkd='mkdir -pv'
+
+# Color commands
+alias ls='ls -GA1'
+alias ll='ls -GAlh'
+alias grep='grep --color=auto'
+alias ccat='highlight --out-format=ansi'
+
+# Nvim for diff
+alias diff='nvim -d'
+
+# General aliases
+alias v='$EDITOR'
+alias vstat='nvim +:DiffviewOpen'
+alias vcommit='nvim +:DiffviewFileHistory'
+#alias org='$EDITOR +:NeorgStart'
+alias s='kitty +kitten ssh'
+alias t='tmux a -f ~/.config/tmux/.tmux.conf || tmux -f ~/.config/tmux/.tmux.conf'
+alias icat='kitty +kitten icat'
+alias wget='wget --no-hsts'
+f() {
+  find ${1}
+}
+# Quick jump for recent directories
+alias d='dirs -v'
+for index ({0..9}) alias "$index"="cd +${index}"; unset index
+
+# Git
+alias gs='git status -sb'
+alias gu='git add -u; git status -sb'
+alias ga='git add -A; git status -sb'
+alias gad='git add'
+alias grt='git reset'
+alias gps='git push'
+alias gpl='git pull'
+alias gcm='git commit -m '
+gas() {
+  git add "$1" && git status -sb
+}
+gc() {
+  [[ -n "$1" ]] && git commit -m "$1" || git commit -m "update"
+}
+
+# Kubernetes Kubectl
+alias k='kubectl'
+
+# Citrix VPN
+alias vpnvdf='LD_PRELOAD=/home/samuel/NSGClient_LIBS/libcurl.so.4 /opt/Citrix/NSGClient/bin/NSGClient -c'
+
+# Citrix windows pass enter
+alias vdfwin='xdotool type --window $(xdotool search --name Vodafone) $(pass Vodafone/Network) && xdotool key --window $(xdotool search --name Vodafone) Return'
+

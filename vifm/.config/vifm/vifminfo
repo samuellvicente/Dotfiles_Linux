@@ -1,0 +1,417 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'b
+	/home/samuel/bin/
+	..
+1662393716
+'h
+	/home/samuel/
+	..
+1662393716
+'k
+	/home/samuel/Dotfiles/sxhkd/.config/sxhkd
+	sxhkdrc
+1662567498
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v1
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/samuel/.config/nvim/lua
+	user
+1
+d/home/samuel/.config/nvim
+	lua
+1
+d/home/samuel/.config
+	sxhkd
+6
+d/home/samuel/.config/sxhkd
+	sxhkdrc
+1
+d/home/samuel
+	Dotfiles
+10
+d/home/samuel/Dotfiles
+	sxhkd
+12
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
+	sxhkdrc
+1
+d/home/samuel/Dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles
+	sxhkd
+12
+d/home/samuel
+	Dotfiles
+10
+d/home/samuel/Dotfiles
+	bspwm
+2
+d/home/samuel/Dotfiles/bspwm
+	..
+0
+d/home/samuel/Dotfiles
+	bspwm
+2
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	..
+0
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	bspwm
+2
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	bspwm
+3
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles
+	bspwm
+3
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles
+	sxhkd
+13
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
+	sxhkdrc
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	bspwm
+3
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	sxhkd
+13
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
+	sxhkdrc
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	sxhkd
+13
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
+	sxhkdrc
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	sxhkd
+13
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles
+	bspwm
+3
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel
+	Dotfiles
+11
+d/home/samuel/Dotfiles
+	bspwm
+3
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	bspwm
+3
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles
+	sxhkd
+13
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
+	sxhkdrc
+1
+d/home/samuel
+	.config
+2
+d/home/samuel/.config
+	autorandr
+1
+d/home/samuel/.config/autorandr
+	mobile
+2
+d/home/samuel/.config/autorandr/mobile
+	config
+1
+d/home/samuel/.config/autorandr
+	docked
+1
+d/home/samuel/.config/autorandr/docked
+	config
+1
+d/home/samuel/.config/autorandr
+	docked
+1
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	bspwm
+3
+d/home/samuel/Dotfiles/bspwm
+	.config
+1
+d/home/samuel/Dotfiles/bspwm/.config
+	bspwm
+1
+d/home/samuel/Dotfiles/bspwm/.config/bspwm
+	bspwmrc
+1
+d/home/samuel
+	Downloads
+14
+d/home/samuel/Downloads
+	dunstrc
+2
+d/home/samuel
+	Dotfiles
+13
+d/home/samuel/Dotfiles
+	sxhkd
+14
+d/home/samuel/Dotfiles/sxhkd
+	.config
+1
+d/home/samuel/Dotfiles/sxhkd/.config
+	sxhkd
+1
+d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
+	sxhkdrc
+1
+d
+
+# Right window history (oldest to newest):
+D/home/samuel
+	Dotfiles
+3
+D/home/samuel/Dotfiles
+	bspwm
+1
+D/home/samuel/Dotfiles/bspwm
+	..
+0
+D/home/samuel/Dotfiles
+	dunst
+3
+D/home/samuel/Dotfiles/dunst
+	..
+0
+D/home/samuel/Dotfiles
+	dunst
+3
+D/home/samuel/Dotfiles/dunst
+	..
+0
+D/home/samuel/Dotfiles
+	dunst
+3
+D/home/samuel
+	Dotfiles
+3
+D/home/samuel/Dotfiles
+	dunst
+4
+D/home/samuel/Dotfiles/dunst
+	.config
+1
+D/home/samuel/Dotfiles/dunst/.config
+	..
+0
+D/home/samuel/Dotfiles/dunst
+	.config
+1
+D/home/samuel/Dotfiles/dunst/.config
+	dunst
+1
+D/home/samuel/Dotfiles/dunst/.config/dunst
+	dunstrc
+1
+D
+
+# Command line history (oldest to newest):
+:mkdir userchrome
+:w
+:e gpg-agent.conf
+:e janus.unit
+:e janus.service
+:wq
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+p0006_###.jpg
+p1
+p0008_###.jpg
+p2
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/samuel/Downloads/dunstrc
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/samuel/.local/share/vifm/Trash/000_sxhkdrc
+	/home/samuel/Dotfiles/bspwm/sxhkdrc
+t/home/samuel/.local/share/vifm/Trash/000_.zcompdump
+	/home/samuel/Dotfiles/zsh/.config/zsh/.zcompdump
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
