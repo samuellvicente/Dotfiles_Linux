@@ -5,8 +5,8 @@ alias rm='rm -iv'
 alias mkd='mkdir -pv'
 
 # Color commands
-alias ls='ls -GA1'
-alias ll='ls -GAlh'
+alias ls='ls --color -AvX'
+alias ll='ls --color -AlhS'
 alias grep='grep --color=auto'
 alias ccat='highlight --out-format=ansi'
 
@@ -15,6 +15,7 @@ alias diff='nvim -d'
 
 # General aliases
 alias v='$EDITOR'
+alias vsudo='sudoedit'
 alias vstat='nvim +:DiffviewOpen'
 alias vcommit='nvim +:DiffviewFileHistory'
 #alias org='$EDITOR +:NeorgStart'
@@ -38,6 +39,7 @@ alias grt='git reset'
 alias gps='git push'
 alias gpl='git pull'
 alias gcm='git commit -m '
+alias gch='git checkout'
 gas() {
   git add "$1" && git status -sb
 }
@@ -47,10 +49,4 @@ gc() {
 
 # Kubernetes Kubectl
 alias k='kubectl'
-
-# Citrix VPN
-alias vpnvdf='LD_PRELOAD=/home/samuel/NSGClient_LIBS/libcurl.so.4 /opt/Citrix/NSGClient/bin/NSGClient -c'
-
-# Citrix windows pass enter
-alias vdfwin='xdotool type --window $(xdotool search --name Vodafone) $(pass Vodafone/Network) && xdotool key --window $(xdotool search --name Vodafone) Return'
 
