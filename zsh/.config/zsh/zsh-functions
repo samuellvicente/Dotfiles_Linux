@@ -12,3 +12,9 @@
 #jarback(){
 #  (java -jar $@ &) >/dev/null 2>&1
 #}
+#
+db(){
+  docker build -f $1 --target="$2" -t="$3_$2" . && \
+  docker images | grep "$3$2" && \
+  dive "$3$2"
+}
