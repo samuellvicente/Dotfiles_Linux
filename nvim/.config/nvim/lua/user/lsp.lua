@@ -49,7 +49,7 @@ if not status_ok then
   return
 end
 
-local capabilities = cmp_nvim_lsp.update_capabilities(vim.lsp.protocol.make_client_capabilities())
+local capabilities = cmp_nvim_lsp.default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
@@ -58,26 +58,26 @@ if not status_ok then
   return
 end
 
-lspconfig.ansiblels.setup {
-}
+--lspconfig.ansiblels.setup {
+--}
 
 
-lspconfig.yamlls.setup {
-  filetypes = { "yaml", "yml", "yaml.docker-compose" },
-  single_file_support = true,
-  --root_dir = util.find_git_ancestor,
-  root_dir = util.root_pattern("*.yaml"),
-  settings = {
-    yaml = {
-      schemas = {
-        ["https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.25.0-standalone-strict/all.json"] = "/*k8s.yaml",
-      },
-      format = {
-        enable = true,
-      },
-    },
-  }
-}
+-- lspconfig.yamlls.setup {
+--   filetypes = { "yaml", "yml", "yaml.docker-compose" },
+--   single_file_support = true,
+--   --root_dir = util.find_git_ancestor,
+--   root_dir = util.root_pattern("*.yaml"),
+--   settings = {
+--     yaml = {
+--       schemas = {
+--         ["https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.25.0-standalone-strict/all.json"] = "/*k8s.yaml",
+--       },
+--       format = {
+--         enable = true,
+--       },
+--     },
+--   }
+-- }
 --lspconfig.texlab.setup {
 --  on_attach = custom_attach,
 --  capabilities = capabilities,

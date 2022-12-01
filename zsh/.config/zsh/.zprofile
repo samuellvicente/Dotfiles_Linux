@@ -8,6 +8,9 @@ export LC_ALL=en_IE.UTF-8
 # Add yarn bin to PATH
 export PATH="$(yarn global bin --offline):$PATH"
 
+# Use docker buildkit
+export DOCKER_BUILDKIT=1
+
 ## HomeBrew options
 #export HOMEBREW_CASK_OPTS=--no-quarantine
 #

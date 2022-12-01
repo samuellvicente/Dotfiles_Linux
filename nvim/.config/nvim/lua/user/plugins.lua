@@ -39,6 +39,9 @@ local PKGS = {
 
   -- jenkins
   "ckipp01/nvim-jenkinsfile-linter";
+
+  {"iamcco/markdown-preview.nvim",
+    run = "cd app && npm install",}
 }
 
 -- Automatically install paq
@@ -57,8 +60,8 @@ end
 -- Autocommand that reloads neovim whenever you save the plugins.lua file
 vim.cmd [[
   augroup paq_user_config
-    autocmd!
-    autocmd BufWritePost plugins.lua source <afile> | PaqSync
+  autocmd!
+  autocmd BufWritePost plugins.lua source <afile> | PaqSync
   augroup end
 ]]
 

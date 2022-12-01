@@ -7,13 +7,13 @@ SAVEHIST=10000000
 HISTFILE=$ZCACHE/.zhistory
 
 # Usefull options
-setopt autocd 
-setopt extendedglob 
-setopt nomatch 
+setopt autocd
+setopt extendedglob
+setopt nomatch
 setopt menucomplete
-setopt interactive_comments 
+setopt interactive_comments
 setopt complete_in_word
-setopt hist_save_no_dups 
+setopt hist_save_no_dups
 setopt share_history
 setopt prompt_subst
 # Quick jump for recent directories
@@ -25,7 +25,7 @@ setopt PUSHD_SILENT
 stty stop undef
 
 # Enable colors and change left prompt:
-autoload -U colors && colors	# Load colors
+autoload -U colors && colors  # Load colors
 PROMPT="%B%F{magenta}%~ %F{yellow}%(!.%(?.%F{yellow}#.%F{red}#).%(?.%F{yellow}$.%F{red}$)) %f%b"
 
 # Enable git info TODO
@@ -62,7 +62,7 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit -d $ZCACHE/.zcompdump
 # Include hidden files.
-_comp_options+=(globdots)		
+_comp_options+=(globdots)
 # case insensitive path-completion 
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
 # vi mode
@@ -92,14 +92,14 @@ function zle-keymap-select () {
 zle -N zle-keymap-select
 zle-line-init() {
 # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-    zle -K viins 
+    zle -K viins
     echo -ne "\e[5 q"
 }
 zle -N zle-line-init
 # Use beam shape cursor on startup.
-echo -ne '\e[5 q' 
+echo -ne '\e[5 q'
 # Use beam shape cursor for each new prompt.
-preexec() { echo -ne '\e[5 q' ;} 
+preexec() { echo -ne '\e[5 q' ;}
 
 # Launch vifm in the current directory
 bindkey -s '^o' 'vifm . ^M'
@@ -114,4 +114,4 @@ autoload -Uz $ZDOTDIR/plugins/zsh-bd/bd.zsh
 bd.zsh
 
 # Load syntax highlighting;
-source $ZDOTDIR/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 
+source $ZDOTDIR/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh

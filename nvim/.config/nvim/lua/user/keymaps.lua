@@ -58,7 +58,6 @@ vim.cmd [[ command Wq wq ]]
 vim.cmd [[ command W w ]]
 vim.cmd [[ command Q q ]]
 
-
 -- should go to autocmd latex
 keymap("n", "<leader>op", ":silent !zathura %:t:r.pdf & <cr>",opts);
 
@@ -68,6 +67,7 @@ keymap("n", "<leader>tf", ":NvimTreeFindFile!<cr>",opts);
 
 -- Work diffs
 -- keymap("n", "<leader>dp", ":vert diffsplit % "
+
 
 function compare_to_clipboard()
   local ftype = vim.api.nvim_eval("&filetype")
@@ -80,6 +80,7 @@ function compare_to_clipboard()
   vim.cmd("diffthis")
   vim.cmd([[execute "normal! \<C-w>h"]])
   vim.cmd("diffthis")
+  vim.cmd("set nofoldenable")
 end
 
 keymap("n", "<leader>dc", ":lua compare_to_clipboard()<CR>", opts)

@@ -60,6 +60,6 @@ vim.o.foldmethod = 'expr'
 vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
 vim.cmd('set nofoldenable')
 
-vim.opt.diffopt:append "iwhite"
+--vim.opt.diffopt:append "iwhite"
 vim.opt.diffopt:append "vertical"
 --vim.opt.diffopt:append "algorithm:mey"

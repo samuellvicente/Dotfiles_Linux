@@ -1,9 +1,6 @@
 #! /bin/sh
 
 #Auto start
-
-autorandr --change
-
 xsetroot -cursor_name left_ptr &
 
 $HOME/.fehbg &
