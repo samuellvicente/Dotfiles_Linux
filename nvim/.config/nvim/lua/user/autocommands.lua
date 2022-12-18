@@ -75,7 +75,7 @@ local yaml = vim.api.nvim_create_augroup("_yaml-settings", {
 })
 
 vim.api.nvim_create_autocmd({"BufNewFile", "BufRead"}, {
-  pattern = {"all"},
+  pattern = {"all", "*yaml*", "*yml*"},
   callback = function()
     vim.cmd [[
       set ft=yaml

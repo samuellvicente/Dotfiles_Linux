@@ -18,3 +18,14 @@ db(){
   docker images | grep "$3_$2" && \
   dive "$3_$2"
 }
+
+
+#alias gcm='git commit -m '
+gcm(){
+  the_rest=""
+  for arg in "$@"
+  do
+    the_rest="${the_rest} ${arg}"
+  done
+  git commit -m $the_rest
+}

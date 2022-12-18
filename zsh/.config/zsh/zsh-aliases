@@ -38,7 +38,6 @@ alias gad='git add'
 alias grt='git reset'
 alias gps='git push'
 alias gpl='git pull'
-alias gcm='git commit -m '
 alias gch='git checkout'
 gas() {
   git add "$1" && git status -sb
