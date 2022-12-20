@@ -26,204 +26,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/samuel/.config/nvim/lua
-	user
-1
-d/home/samuel/.config/nvim
-	lua
-1
-d/home/samuel/.config
-	sxhkd
-6
-d/home/samuel/.config/sxhkd
-	sxhkdrc
-1
-d/home/samuel
-	Dotfiles
-10
-d/home/samuel/Dotfiles
-	sxhkd
-12
-d/home/samuel/Dotfiles/sxhkd
-	.config
-1
-d/home/samuel/Dotfiles/sxhkd/.config
-	sxhkd
-1
-d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
-	sxhkdrc
-1
-d/home/samuel/Dotfiles/sxhkd/.config
-	sxhkd
-1
-d/home/samuel/Dotfiles/sxhkd
-	.config
-1
-d/home/samuel/Dotfiles
-	sxhkd
-12
-d/home/samuel
-	Dotfiles
-10
-d/home/samuel/Dotfiles
-	bspwm
-2
-d/home/samuel/Dotfiles/bspwm
-	..
-0
-d/home/samuel/Dotfiles
-	bspwm
-2
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm/.config/bspwm
-	..
-0
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm/.config/bspwm
-	bspwmrc
-1
-d/home/samuel
-	Dotfiles
-13
-d/home/samuel/Dotfiles
-	bspwm
-2
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm/.config/bspwm
-	bspwmrc
-1
-d/home/samuel
-	Dotfiles
-13
-d/home/samuel/Dotfiles
-	bspwm
-3
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm/.config/bspwm
-	bspwmrc
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles
-	bspwm
-3
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm/.config/bspwm
-	bspwmrc
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles
-	sxhkd
-13
-d/home/samuel/Dotfiles/sxhkd
-	.config
-1
-d/home/samuel/Dotfiles/sxhkd/.config
-	sxhkd
-1
-d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
-	sxhkdrc
-1
-d/home/samuel
-	Dotfiles
-13
-d/home/samuel/Dotfiles
-	bspwm
-3
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm/.config/bspwm
-	bspwmrc
-1
-d/home/samuel
-	Dotfiles
-13
-d/home/samuel/Dotfiles
-	sxhkd
-13
-d/home/samuel/Dotfiles/sxhkd
-	.config
-1
-d/home/samuel/Dotfiles/sxhkd/.config
-	sxhkd
-1
-d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
-	sxhkdrc
-1
-d/home/samuel
-	Dotfiles
-13
-d/home/samuel/Dotfiles
-	sxhkd
-13
-d/home/samuel/Dotfiles/sxhkd
-	.config
-1
-d/home/samuel/Dotfiles/sxhkd/.config
-	sxhkd
-1
-d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
-	sxhkdrc
-1
-d/home/samuel
-	Dotfiles
-13
-d/home/samuel/Dotfiles
-	sxhkd
-13
-d/home/samuel/Dotfiles/sxhkd
-	.config
-1
-d/home/samuel/Dotfiles
-	bspwm
-3
-d/home/samuel/Dotfiles/bspwm
-	.config
-1
-d/home/samuel/Dotfiles/bspwm/.config
-	bspwm
-1
-d/home/samuel/Dotfiles/bspwm/.config/bspwm
-	bspwmrc
-1
-d/home/samuel
-	Dotfiles
-11
 d/home/samuel/Dotfiles
 	bspwm
 3
@@ -326,6 +128,204 @@ d/home/samuel/Dotfiles/sxhkd/.config
 d/home/samuel/Dotfiles/sxhkd/.config/sxhkd
 	sxhkdrc
 1
+d/home/samuel
+	Dotfiles_Linux
+14
+d/home/samuel/Dotfiles_Linux
+	vifm
+9
+d/home/samuel/Dotfiles_Linux/vifm
+	.config
+1
+d/home/samuel/Dotfiles_Linux/vifm/.config
+	vifm
+1
+d/home/samuel/Dotfiles_Linux/vifm/.config/vifm
+	scripts
+2
+d/home/samuel
+	Documents
+13
+d/home/samuel/Documents
+	nsgclient-linux
+2
+d/home/samuel/Documents/nsgclient-linux
+	install_NSGClient.sh
+4
+d/media/samuel
+	SamFAT
+1
+d/media/samuel/SamFAT
+	zsh-local-aliases
+25
+d/home/samuel
+	Dotfiles_Linux
+8
+d/home/samuel/Dotfiles_Linux
+	tmux
+8
+d/home/samuel/Dotfiles_Linux/tmux
+	.config
+1
+d/home/samuel/Dotfiles_Linux/tmux/.config
+	tmux
+1
+d/home/samuel/Dotfiles_Linux/tmux/.config/tmux
+	.tmux.conf
+2
+d/home/samuel/Dotfiles_Linux/tmux/.config
+	tmux
+1
+d/home/samuel/Dotfiles_Linux/tmux
+	.config
+1
+d/home/samuel/Dotfiles_Linux
+	vifm
+9
+d/home/samuel/Dotfiles_Linux/vifm
+	.config
+1
+d/home/samuel/Dotfiles_Linux/vifm/.config
+	vifm
+1
+d/home/samuel/Dotfiles_Linux/vifm/.config/vifm
+	vifmrc
+7
+d/home/samuel
+	Dotfiles_Linux
+9
+d/home/samuel/Dotfiles_Linux
+	vifm
+9
+d/home/samuel/Dotfiles_Linux/vifm
+	.config
+1
+d/home/samuel/Dotfiles_Linux/vifm/.config
+	vifm
+1
+d/home/samuel/Dotfiles_Linux/vifm/.config/vifm
+	vifmrc
+7
+d/home/samuel
+	.config
+5
+d/home/samuel/.config
+	vifm
+15
+d/home/samuel/.config/vifm
+	vifmrc
+7
+d/home/samuel
+	.config
+5
+d/home/samuel/.config
+	vifm
+15
+d/home/samuel/.config/vifm
+	vifm-help.txt
+4
+d/home/samuel
+	.fonts
+6
+d/home/samuel/.citrix
+	..
+0
+d/home/samuel
+	.citrix
+4
+d/home/samuel/.citrix
+	..
+0
+d/home/samuel
+	.ICAClient
+1
+d/home/samuel/.ICAClient
+	config
+4
+d/home/samuel/.ICAClient/config
+	ServiceRecord.xml
+1
+d/home/samuel/.ICAClient
+	UDS
+2
+d/home/samuel
+	.ICAClient
+1
+d/home/samuel/.config/nvim
+	..
+0
+d/home/samuel/.config
+	nvim
+13
+d/home/samuel
+	Desktop
+16
+d/home/samuel/Desktop
+	..
+0
+d/home/samuel
+	Downloads
+19
+d/home/samuel/Downloads
+	readme.md
+10
+d/home/samuel/Documents/ready/composes
+	..
+0
+d/home/samuel/Documents/ready
+	CI_CD
+3
+d/home/samuel/Documents/ready/CI_CD
+	k8s
+2
+d/home/samuel/Documents/ready/CI_CD/k8s
+	prod-openshift
+4
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift
+	config
+1
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config
+	smart-activities
+11
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config/smart-activities
+	configs
+1
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config/smart-activities/configs
+	smart-activities-api.json
+5
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config/smart-activities
+	configs
+1
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config
+	smart-activities
+11
+d/home/samuel/Documents/ready
+	CI_CD
+3
+d/home/samuel/Documents/ready/CI_CD
+	k8s
+2
+d/home/samuel/Documents/ready/CI_CD/k8s
+	prod-openshift
+4
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift
+	config
+1
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config
+	smart-bo
+20
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config/smart-bo
+	configs
+1
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config/smart-bo/configs
+	automator-api.json
+1
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config/smart-bo
+	configs
+1
+d/home/samuel/Documents/ready/CI_CD/k8s/prod-openshift/config/smart-bo/configs
+	automator-api.json
+1
 d
 
 # Right window history (oldest to newest):
@@ -374,17 +374,39 @@ D/home/samuel/Dotfiles/dunst/.config
 D/home/samuel/Dotfiles/dunst/.config/dunst
 	dunstrc
 1
+D/home/samuel
+	Dotfiles_Linux
+9
+D/home/samuel/Dotfiles_Linux
+	zsh
+10
+D/home/samuel/Dotfiles_Linux/zsh
+	.config
+1
+D/home/samuel/Dotfiles_Linux/zsh/.config
+	zsh
+1
+D/home/samuel/Dotfiles_Linux/zsh/.config/zsh
+	zsh-local-aliases
+7
 D
 
 # Command line history (oldest to newest):
+:cd /etc
+:cd /etc/keyd/
+:e vifmrc
+:echo $EDITOR
 :mkdir userchrome
 :w
 :e gpg-agent.conf
 :e janus.unit
 :e janus.service
 :wq
+:cd /media/samuel/
 
 # Search history (oldest to newest):
+//pip
+/pip
 
 # Prompt history (oldest to newest):
 p0006_###.jpg
@@ -395,7 +417,7 @@ p2
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/samuel/Downloads/dunstrc
+""/home/samuel/.local/share/vifm/Trash/000_favicons.vifm
 
 # Directory stack (oldest to newest):
 
@@ -404,6 +426,10 @@ t/home/samuel/.local/share/vifm/Trash/000_sxhkdrc
 	/home/samuel/Dotfiles/bspwm/sxhkdrc
 t/home/samuel/.local/share/vifm/Trash/000_.zcompdump
 	/home/samuel/Dotfiles/zsh/.config/zsh/.zcompdump
+t/home/samuel/.local/share/vifm/Trash/000_favicons.vifm
+	/home/samuel/.config/vifm/favicons.vifm
+t/home/samuel/.local/share/vifm/Trash/000_favicons.vifm
+	/home/samuel/.config/nvim/favicons.vifm
 
 # State:
 f

@@ -20,7 +20,7 @@ alias vstat='nvim +:DiffviewOpen'
 alias vcommit='nvim +:DiffviewFileHistory'
 #alias org='$EDITOR +:NeorgStart'
 alias s='kitty +kitten ssh'
-alias t='tmux a -f ~/.config/tmux/.tmux.conf || tmux -f ~/.config/tmux/.tmux.conf'
+alias t='tmux a || tmux -f ~/.config/tmux/.tmux.conf'
 alias icat='kitty +kitten icat'
 alias wget='wget --no-hsts'
 f() {
