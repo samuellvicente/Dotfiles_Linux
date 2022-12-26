@@ -1,6 +1,10 @@
 # History files 
 export LESSHISTFILE=$HOME/.local/share/less/.lesshst
 
+# less with mouse support in tmux
+export LESS='--mouse'
+
+
 # Locale settings irish english offers best settings
 export LANG=en_IE.UTF-8
 export LC_ALL=en_IE.UTF-8
@@ -13,6 +17,12 @@ export DOCKER_BUILDKIT=1
 
 # Add cargo to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# minishift OC binary path
+export PATH="/home/samuel/.minishift/cache/oc/v3.11.0/linux:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 ## HomeBrew options
 #export HOMEBREW_CASK_OPTS=--no-quarantine
@@ -30,3 +40,4 @@ export PATH="$HOME/.cargo/bin:$PATH"
 #
 ## Dbus for zathura synctex
 #export DBUS_SESSION_BUS_ADDRESS='unix:path='$DBUS_LAUNCHD_SESSION_BUS_SOCKET
+#
