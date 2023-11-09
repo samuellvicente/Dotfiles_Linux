@@ -103,6 +103,8 @@ preexec() { echo -ne '\e[5 q' ;}
 
 # Launch vifm in the current directory
 bindkey -s '^o' 'vifm . ^M'
+# Launch nvim in the current directory
+bindkey -s '^y' 'nvim . ^M'
 
 # Edit line in editor with ctrl-e:
 autoload edit-command-line
@@ -115,3 +117,9 @@ bd.zsh
 
 # Load syntax highlighting;
 source $ZDOTDIR/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+
+# Nix
+if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
+  . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
+fi
+# End Nix
