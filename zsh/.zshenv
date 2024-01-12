@@ -2,8 +2,8 @@
 export ZDOTDIR=$HOME/.config/zsh
 
 # Default programs
-export EDITOR="nvim"
-export VISUAL="nvim"
+export EDITOR="lvim"
+export VISUAL="lvim"
 export TERMINAL="kitty"
 export PAGER="less --mouse"
 export BROWSER="less --mouse"

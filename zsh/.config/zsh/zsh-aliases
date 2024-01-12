@@ -11,7 +11,7 @@ alias grep='grep --color=auto'
 alias ccat='highlight --out-format=ansi'
 
 # Nvim for diff
-alias diff='nvim -d'
+alias diff='$EDITOR -d'
 
 # General aliases
 alias v='$EDITOR'

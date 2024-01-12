@@ -56,6 +56,12 @@ PROMPT="%B%F{magenta}%~ %F{yellow}%(!.%(?.%F{yellow}#.%F{red}#).%(?.%F{yellow}$.
 [ -f "$ZDOTDIR/zsh-local-aliases" ] && source "$ZDOTDIR/zsh-local-aliases"
 [ -f "$ZDOTDIR/zsh-functions" ] && source "$ZDOTDIR/zsh-functions"
 
+
+#nix completion
+source $HOME/nix-zsh-completions/nix-zsh-completions.plugin.zsh
+fpath=($HOME/nix-zsh-completions $fpath)
+
+
 # Basic auto/tab complete:
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -122,4 +128,7 @@ source $ZDOTDIR/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin
 if [ -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh' ]; then
   . '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
 fi
+
+
 # End Nix
+

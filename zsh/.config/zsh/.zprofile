@@ -2,7 +2,7 @@
 export LESSHISTFILE=$HOME/.local/share/less/.lesshst
 
 # less with mouse support in tmux
-export LESS='--mouse'
+export LESS='-R --mouse'
 
 # Locale settings irish english offers best settings
 export LANG=en_IE.UTF-8
@@ -49,3 +49,5 @@ export PATH=$PATH:$(go env GOPATH)/bin
 ## Dbus for zathura synctex
 #export DBUS_SESSION_BUS_ADDRESS='unix:path='$DBUS_LAUNCHD_SESSION_BUS_SOCKET
 #
+#
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
